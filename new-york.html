@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York Travel Guide | WanderWise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="fabicon.ico">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">Wander<span>Wise</span></h1>
+                <p class="tagline">Smart Travel, Not Hard Travel</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="blog.html">Travel Tips</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search destinations..." id="search-input">
+                <button id="search-btn">Go</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="destination-header" style="background-image: url('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9');">
+        <div class="container">
+            <h1>New York, USA</h1>
+            <div class="destination-meta">
+                <div class="meta-item"><i class="fas fa-city"></i> The Big Apple</div>
+                <div class="meta-item"><i class="fas fa-thermometer-half"></i> <span id="weather-widget">12°C, Cloudy</span></div>
+                <div class="meta-item"><i class="fas fa-wallet"></i> Budget: $$$</div>
+                <div class="meta-item"><i class="fas fa-clock"></i> Timezone: GMT-4</div>
+            </div>
+            <p>The city that never sleeps offers world-class museums, Broadway shows, and iconic landmarks.</p>
+        </div>
+    </section>
+
+    <main class="destination-content">
+        <div class="container">
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-map-marked-alt"></i> Top 5 Things to Do</h2>
+                <div class="tip-card">
+                    <h3>1. Central Park</h3>
+                    <p>843-acre green oasis in the middle of Manhattan. Rent a bike or take a guided walking tour.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Free activities:</strong> People watching, Shakespeare in the Park (summer)</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Early morning for peaceful walks</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>2. Statue of Liberty & Ellis Island</h3>
+                    <p>Iconic symbol of freedom and immigration museum. Reserve crown access months in advance.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> $24.50 ferry ticket (includes both islands)</p>
+                    <p><strong><i class="fas fa-clock"></i> Tip:</strong> First ferry of the day has shortest lines</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>3. Metropolitan Museum of Art</h3>
+                    <p>One of the world's greatest art museums with collections spanning 5,000 years.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> Pay-what-you-wish for NY state residents, $30 suggested for others</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Weekday mornings</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>4. Times Square</h3>
+                    <p>The bustling heart of NYC with giant digital billboards and Broadway theaters.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> Free (TKTS booth for discounted show tickets)</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Evening for the full neon experience</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>5. High Line</h3>
+                    <p>Elevated park built on a historic freight rail line with great city views.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> Free</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Weekday mornings or sunset</p>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-utensils"></i> Must-Try NYC Food</h2>
+                <div class="food-card">
+                    <h3>NY-Style Pizza</h3>
+                    <p>Thin, foldable slices with perfect crust. Skip the chains for local joints.</p>
+                    <p><strong>Where to try:</strong> Joe's Pizza (Greenwich Village) or Di Fara (Brooklyn)</p>
+                    <p><strong>Price:</strong> $3-5 per slice</p>
+                </div>
+                
+                <div class="food-card">
+                    <h3>Bagels with Lox</h3>
+                    <p>NY bagels are legendary - try them with cream cheese and smoked salmon.</p>
+                    <p><strong>Where to try:</strong> Russ & Daughters or Ess-a-Bagel</p>
+                    <p><strong>Price:</strong> $10-15</p>
+                </div>
+                
+                <div class="food-card">
+                    <h3>Pastrami Sandwich</h3>
+                    <p>Pile of perfectly spiced, tender meat on rye bread with mustard.</p>
+                    <p><strong>Where to try:</strong> Katz's Delicatessen (Lower East Side)</p>
+                    <p><strong>Price:</strong> $25 (huge portion)</p>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-coins"></i> Budget Tips</h2>
+                <div class="tip-card">
+                    <h3>Use the Subway</h3>
+                    <p>$2.90 per ride or get unlimited MetroCard for longer stays. Avoid taxis.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Free Museum Days</h3>
+                    <p>Many museums have pay-what-you-wish hours (MoMA: Friday evenings).</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Cheap Eats</h3>
+                    <p>Food trucks, dollar pizza slices, and Chinatown restaurants offer great value.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>CityPASS</h3>
+                    <p>Save 40% on top attractions like Empire State Building and 9/11 Museum.</p>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-calendar-alt"></i> Sample 5-Day Itinerary</h2>
+                <div class="itinerary-day">
+                    <h3>Day 1: Midtown Icons</h3>
+                    <ul>
+                        <li>Morning: Times Square & Broadway theaters</li>
+                        <li>Afternoon: Top of the Rock observation deck</li>
+                        <li>Evening: Broadway show (lottery for cheap tickets)</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day">
+                    <h3>Day 2: Lower Manhattan</h3>
+                    <ul>
+                        <li>Morning: Statue of Liberty & Ellis Island</li>
+                        <li>Afternoon: 9/11 Memorial & Financial District</li>
+                        <li>Evening: Dinner in Chinatown/Little Italy</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day">
+                    <h3>Day 3: Central Park & Museums</h3>
+                    <ul>
+                        <li>Morning: Central Park walk</li>
+                        <li>Afternoon: Metropolitan Museum of Art</li>
+                        <li>Evening: Museum of Modern Art (free Friday nights)</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day">
+                    <h3>Day 4: Brooklyn & DUMBO</h3>
+                    <ul>
+                        <li>Morning: Walk across Brooklyn Bridge</li>
+                        <li>Afternoon: Brooklyn Heights & DUMBO</li>
+                        <li>Evening: Williamsburg nightlife</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day">
+                    <h3>Day 5: Uptown & Harlem</h3>
+                    <ul>
+                        <li>Morning: American Museum of Natural History</li>
+                        <li>Afternoon: Harlem soul food lunch</li>
+                        <li>Evening: Jazz club in Harlem or Greenwich Village</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-info-circle"></i> Essential Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3><i class="fas fa-passport"></i> Visa Requirements</h3>
+                        <p>ESTA required for visa waiver countries. Others need visitor visa.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-language"></i> Language</h3>
+                        <p>English. Spanish widely spoken in some neighborhoods.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-money-bill-wave"></i> Currency</h3>
+                        <p>US Dollar ($). Credit cards widely accepted but carry some cash.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-plug"></i> Electricity</h3>
+                        <p>120V, 60Hz. Type A/B plugs (two flat pins). No adapter needed for US devices.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-subway"></i> Transportation</h3>
+                        <p>24/7 subway system. Unlimited MetroCard best for stays over 3 days.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-heart"></i> Health & Safety</h3>
+                        <p>Generally safe but be alert in crowds. Tap water drinkable. Emergency: 911.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-map"></i> Neighborhoods to Stay</h2>
+                <div class="area-card">
+                    <h3>Midtown</h3>
+                    <p><strong>Best for:</strong> First-time visitors, proximity to attractions</p>
+                    <p><strong>Budget:</strong> $$$</p>
+                    <p>Central location but can feel touristy.</p>
+                </div>
+                
+                <div class="area-card">
+                    <h3>Greenwich Village</h3>
+                    <p><strong>Best for:</strong> Charming streets, nightlife</p>
+                    <p><strong>Budget:</strong> $$$</p>
+                    <p>Bohemian vibe with great restaurants.</p>
+                </div>
+                
+                <div class="area-card">
+                    <h3>Williamsburg</h3>
+                    <p><strong>Best for:</strong> Hipster scene, younger travelers</p>
+                    <p><strong>Budget:</strong> $$</p>
+                    <p>Brooklyn neighborhood with great food and bars.</p>
+                </div>
+                
+                <div class="area-card">
+                    <h3>Long Island City</h3>
+                    <p><strong>Best for:</strong> Budget travelers</p>
+                    <p><strong>Budget:</strong> $</p>
+                    <p>Queens neighborhood with quick subway access to Manhattan.</p>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-question-circle"></i> FAQs</h2>
+                <div class="faq-card">
+                    <h3>When is the best time to visit NYC?</h3>
+                    <p>April-June and September-October for pleasant weather. December for holiday magic.</p>
+                </div>
+                
+                <div class="faq-card">
+                    <h3>How much should I budget per day?</h3>
+                    <p>Budget travelers: $100-150/day. Mid-range: $200-300. Luxury: $400+.</p>
+                </div>
+                
+                <div class="faq-card">
+                    <h3>Is the subway safe at night?</h3>
+                    <p>Generally yes, especially on busy lines. Use well-lit stations and sit near conductor.</p>
+                </div>
+                
+                <div class="faq-card">
+                    <h3>Do I need to tip?</h3>
+                    <p>Yes! 15-20% at restaurants, $1-2 per drink at bars, $2-5 for hotel staff.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>WanderWise</h3>
+                    <p>Helping budget travelers explore the world smarter since 2023.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Guides</h4>
+                    <ul>
+                        <li><a href="bangkok.html">Bangkok</a></li>
+                        <li><a href="paris.html">Paris</a></li>
+                        <li><a href="bali.html">Bali</a></li>
+                        <li><a href="tokyo.html">Tokyo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="packing-list.html">Packing List</a></li>
+                        <li><a href="budget-tips.html">Budget Tips</a></li>
+                        <li><a href="solo-travel.html">Solo Travel</a></li>
+                        <li><a href="digital-nomad.html">Digital Nomad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderWise. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> for travelers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

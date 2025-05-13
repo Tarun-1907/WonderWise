@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangkok Travel Guide | WanderWise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="fabicon.ico">
+
+</head>
+<body>
+    <header class="main-header">
+        <!-- Same header as index.html -->
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">Wander<span>Wise</span></h1>
+                <p class="tagline">Smart Travel, Not Hard Travel</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="blog.html">Travel Tips</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search destinations..." id="search-input">
+                <button id="search-btn">Go</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="destination-header" style="background-image: url('https://images.unsplash.com/photo-1563492065599-3520f775eeed');">
+        <div class="container">
+            <h1>Bangkok, Thailand</h1>
+            <div class="destination-meta">
+                <div class="meta-item"><i class="fas fa-city"></i> Capital City</div>
+                <div class="meta-item"><i class="fas fa-thermometer-half"></i> <span id="weather-widget">28°C, Sunny</span></div>
+                <div class="meta-item"><i class="fas fa-wallet"></i> Budget: $</div>
+                <div class="meta-item"><i class="fas fa-clock"></i> Timezone: GMT+7</div>
+            </div>
+            <p>Bangkok is a bustling metropolis known for its vibrant street life, ornate temples, and incredible food scene.</p>
+        </div>
+    </section>
+
+    <main class="destination-content">
+        <div class="container">
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-map-marked-alt"></i> Top 5 Things to Do</h2>
+                <div class="tip-card">
+                    <h3>1. Grand Palace & Wat Phra Kaew</h3>
+                    <p>Bangkok's most famous landmark, this stunning complex houses the sacred Emerald Buddha. Arrive early to beat the crowds and dress modestly (shoulders and knees covered).</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> 500 THB (~$15)</p>
+                    <p><strong><i class="fas fa-clock"></i> Hours:</strong> 8:30am-3:30pm daily</p>
+                    <p><strong><i class="fas fa-subway"></i> How to get there:</strong> Take the Chao Phraya Express Boat to Tha Chang Pier (N9)</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>2. Chatuchak Weekend Market</h3>
+                    <p>One of the world's largest markets with over 15,000 stalls selling everything from clothing to antiques. Go early for the best deals and bring cash.</p>
+                    <p><strong><i class="fas fa-calendar-day"></i> When:</strong> Sat-Sun 9am-6pm</p>
+                    <p><strong><i class="fas fa-utensils"></i> Tip:</strong> Section 26 has great local food</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>3. Wat Arun (Temple of Dawn)</h3>
+                    <p>Iconic riverside temple best visited at sunset when it's beautifully illuminated. Climb the steep steps for panoramic views of the Chao Phraya River.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> 100 THB (~$3)</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>4. Khao San Road</h3>
+                    <p>The famous backpacker street with cheap hostels, street food, and vibrant nightlife. Even if you're not staying here, it's worth experiencing the energy.</p>
+                    <p><strong><i class="fas fa-bed"></i> Budget stay:</strong> Hostels from $5/night</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>5. Chinatown (Yaowarat)</h3>
+                    <p>Best visited in the evening when the street food stalls come alive. Don't miss the seafood restaurants and bird's nest soup shops.</p>
+                    <p><strong><i class="fas fa-utensils"></i> Must-try:</strong> Shark fin soup (from ethical vendors), mango sticky rice</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-wallet"></i> Budget Travel Tips</h2>
+                <div class="tip-card">
+                    <h3>Getting Around</h3>
+                    <p>Skip taxis and use the BTS Skytrain or MRT subway. For short distances, tuk-tuks are fun but negotiate the price first (should be about 50-100 THB for most rides).</p>
+                    <p><strong><i class="fas fa-subway"></i> Best value:</strong> Rabbit Card for BTS (20% cheaper than single tickets)</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Affordable Accommodation</h3>
+                    <p>Khao San Road is famous for backpackers but can be noisy. Consider nearby areas like Rambuttri or Silom for better value. Hostels start at $5/night, hotels at $20.</p>
+                    <p><strong><i class="fas fa-hotel"></i> Recommended:</strong> Lub d Bangkok Silom, The Yard Hostel</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Eating Cheap</h3>
+                    <p>Street food is delicious and safe to eat. Look for busy stalls with high turnover. Meals cost 40-100 THB ($1.20-$3).</p>
+                    <p><strong><i class="fas fa-utensils"></i> Best areas:</strong> Chinatown, Sukhumvit Soi 38, Or Tor Kor Market</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-utensils"></i> Food Recommendations</h2>
+                <div class="tip-card">
+                    <h3>Must-Try Dishes</h3>
+                    <ul class="food-list">
+                        <li><strong>Pad Thai:</strong> Try Thip Samai (known as Pad Thai Pratu Pi)</li>
+                        <li><strong>Som Tam (Papaya Salad):</strong> Best from street vendors</li>
+                        <li><strong>Mango Sticky Rice:</strong> Available at most markets</li>
+                        <li><strong>Tom Yum Goong:</strong> Spicy shrimp soup at P'Aor</li>
+                        <li><strong>Khao Soi:</strong> Northern Thai curry noodles at Khao Soi Khun Yai</li>
+                    </ul>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Best Street Food Areas</h3>
+                    <p><strong>Chinatown (Yaowarat):</strong> Come hungry for seafood and noodle dishes</p>
+                    <p><strong>Sukhumvit Soi 38:</strong> Great for late-night eats</p>
+                    <p><strong>Or Tor Kor Market:</strong> High-quality produce and cooked foods</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Local Dining Etiquette</h3>
+                    <p>It's common to share dishes family-style. Don't stick your fork in your mouth - use it to push food onto your spoon. Never leave your chopsticks upright in a bowl.</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-calendar-day"></i> One Day Itinerary</h2>
+                <div class="itinerary-item">
+                    <div class="itinerary-time">8:00 AM</div>
+                    <div class="itinerary-content">
+                        <h3>Breakfast at a Local Market</h3>
+                        <p>Start your day like a Thai with jok (rice porridge) or khao tom (boiled rice soup) at Or Tor Kor Market near Chatuchak.</p>
+                    </div>
+                </div>
+                
+                <div class="itinerary-item">
+                    <div class="itinerary-time">9:30 AM</div>
+                    <div class="itinerary-content">
+                        <h3>Grand Palace & Wat Pho</h3>
+                        <p>Visit these iconic sites early to avoid the worst crowds. Don't miss the 46-meter reclining Buddha at Wat Pho.</p>
+                    </div>
+                </div>
+                
+                <div class="itinerary-item">
+                    <div class="itinerary-time">12:30 PM</div>
+                    <div class="itinerary-content">
+                        <h3>Lunch at Tha Maharaj</h3>
+                        <p>Riverside dining complex with great views and authentic Thai food at reasonable prices.</p>
+                    </div>
+                </div>
+                
+                <div class="itinerary-item">
+                    <div class="itinerary-time">2:00 PM</div>
+                    <div class="itinerary-content">
+                        <h3>Wat Arun</h3>
+                        <p>Take the ferry across the river to this stunning temple. Climb to the top for panoramic views.</p>
+                    </div>
+                </div>
+                
+                <div class="itinerary-item">
+                    <div class="itinerary-time">5:00 PM</div>
+                    <div class="itinerary-content">
+                        <h3>Chinatown Street Food</h3>
+                        <p>Explore Yaowarat Road as the street food stalls set up for evening service.</p>
+                    </div>
+                </div>
+                
+                <div class="itinerary-item">
+                    <div class="itinerary-time">8:00 PM</div>
+                    <div class="itinerary-content">
+                        <h3>Rooftop Drinks</h3>
+                        <p>End your day at Octave Rooftop Lounge for affordable cocktails with amazing city views.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-info-circle"></i> Essential Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3><i class="fas fa-language"></i> Language</h3>
+                        <p>Thai is the official language. English is widely understood in tourist areas. Learn basic phrases like "Hello" (Sawasdee) and "Thank you" (Khop khun).</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-money-bill-wave"></i> Currency</h3>
+                        <p>Thai Baht (THB). $1 ≈ 35 THB. ATMs are everywhere but charge 220 THB fee per withdrawal.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-plug"></i> Electricity</h3>
+                        <p>220V, 50Hz. Type A, B, C plugs. Bring a universal adapter.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-subway"></i> Transportation</h3>
+                        <p>BTS Skytrain and MRT subway are most efficient. Taxis are cheap but often stuck in traffic.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-user-shield"></i> Safety</h3>
+                        <p>Generally safe but watch for pickpockets in crowded areas. Beware of tuk-tuk scams offering "cheap tours".</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-calendar-alt"></i> Best Time to Visit</h3>
+                        <p>Nov-Feb (cool season). Avoid Apr (hottest) and Sep-Oct (rainiest).</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-exclamation-triangle"></i> Cultural Do's & Don'ts</h2>
+                <div class="dos-donts-grid">
+                    <div class="dos">
+                        <h3><i class="fas fa-check-circle"></i> Do's</h3>
+                        <ul>
+                            <li>Dress modestly when visiting temples (cover shoulders and knees)</li>
+                            <li>Remove your shoes when entering homes or temples</li>
+                            <li>Use the "wai" greeting (palms together in prayer position)</li>
+                            <li>Show respect to Buddha images</li>
+                        </ul>
+                    </div>
+                    <div class="donts">
+                        <h3><i class="fas fa-times-circle"></i> Don'ts</h3>
+                        <ul>
+                            <li>Touch people's heads or point your feet at people/Buddha images</li>
+                            <li>Raise your voice or show anger in public</li>
+                            <li>Criticize the monarchy (illegal in Thailand)</li>
+                            <li>Take Buddha images out of the country without permission</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-map-signs"></i> Day Trips from Bangkok</h2>
+                <div class="day-trips-grid">
+                    <div class="trip-card">
+                        <h3>Ayutthaya</h3>
+                        <p>Ancient capital with impressive ruins, 1.5 hours by train.</p>
+                        <p><strong>Cost:</strong> ~300 THB roundtrip</p>
+                    </div>
+                    
+                    <div class="trip-card">
+                        <h3>Damnoen Saduak Floating Market</h3>
+                        <p>Colorful market where vendors sell from boats, 1.5 hours by bus.</p>
+                        <p><strong>Tip:</strong> Go early to avoid crowds</p>
+                    </div>
+                    
+                    <div class="trip-card">
+                        <h3>Maeklong Railway Market</h3>
+                        <p>Market set up on active train tracks, combined with Damnoen Saduak.</p>
+                        <p><strong>Train times:</strong> 8:30, 11:10, 14:30, 17:40</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <!-- Same footer as index.html -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>WanderWise</h3>
+                    <p>Helping budget travelers explore the world smarter since 2023.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Guides</h4>
+                    <ul>
+                        <li><a href="bangkok.html">Bangkok</a></li>
+                        <li><a href="paris.html">Paris</a></li>
+                        <li><a href="bali.html">Bali</a></li>
+                        <li><a href="tokyo.html">Tokyo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="packing-list.html">Packing List</a></li>
+                        <li><a href="budget-tips.html">Budget Tips</a></li>
+                        <li><a href="solo-travel.html">Solo Travel</a></li>
+                        <li><a href="digital-nomad.html">Digital Nomad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderWise. All rights reserved.</p>
+                <p>Made with ♥ for travelers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

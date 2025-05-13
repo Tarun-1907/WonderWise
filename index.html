@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free micro travel guides with top things to do, budget tips, and local recommendations for cities worldwide">
+    <title>WanderWise - Free Micro Travel Guides for Budget Explorers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="fabicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">Wander<span>Wise</span></h1>
+                <p class="tagline">Smart Travel, Not Hard Travel</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="blog.html">Travel Tips</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search destinations..." id="search-input">
+                <button id="search-btn">Go</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Discover Your Next Adventure</h2>
+                <p>Free micro guides with local secrets for budget-conscious travelers</p>
+                <div class="cta-buttons">
+                    <a href="destinations.html" class="btn primary">Browse Destinations</a>
+                    <a href="#featured" class="btn secondary">Featured Guides</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="featured-destinations">
+            <div class="container">
+                <h2>Featured Travel Guides</h2>
+                <div class="destination-grid">
+                    <!-- Asia -->
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1563492065599-3520f775eeed');">
+                            <span class="badge">Most Popular</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="bangkok.html">Bangkok, Thailand</a></h3>
+                            <p class="meta">Best time: Nov-Feb • Budget: $</p>
+                            <p class="excerpt">Discover street food gems, stunning temples, and vibrant nightlife in Thailand's capital.</p>
+                            <a href="bangkok.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1492571350019-22de08371fd3');">
+                            <span class="badge">New</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="tokyo.html">Tokyo, Japan</a></h3>
+                            <p class="meta">Best time: Mar-May • Budget: $$</p>
+                            <p class="excerpt">Experience the perfect blend of traditional culture and cutting-edge technology.</p>
+                            <a href="tokyo.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1538970272646-f61fabb3bfdf');">
+                            <span class="badge">Digital Nomad Pick</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="bali.html">Bali, Indonesia</a></h3>
+                            <p class="meta">Best time: May-Sep • Budget: $</p>
+                            <p class="excerpt">Tropical paradise with coworking spaces, stunning beaches, and affordable luxury.</p>
+                            <a href="bali.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+
+                    <!-- Europe -->
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1431274172761-fca41d930114');">
+                            <span class="badge">Romantic Getaway</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="paris.html">Paris, France</a></h3>
+                            <p class="meta">Best time: Apr-Jun • Budget: $$$</p>
+                            <p class="excerpt">Experience the City of Light without breaking the bank with our local tips.</p>
+                            <a href="paris.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1529655683826-aba9b3e77383');">
+                            <span class="badge">History Lovers</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="rome.html">Rome, Italy</a></h3>
+                            <p class="meta">Best time: Sep-Oct • Budget: $$</p>
+                            <p class="excerpt">Walk through history in the Eternal City with our budget-friendly guide.</p>
+                            <a href="rome.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1583423230902-0d5436f1e6d9');">
+                            <span class="badge">Party Central</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="berlin.html">Berlin, Germany</a></h3>
+                            <p class="meta">Best time: May-Sep • Budget: $$</p>
+                            <p class="excerpt">Europe's nightlife capital with fascinating history and affordable living.</p>
+                            <a href="berlin.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+
+                    <!-- Americas -->
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9');">
+                            <span class="badge">City That Never Sleeps</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="new-york.html">New York, USA</a></h3>
+                            <p class="meta">Best time: Apr-Jun • Budget: $$$</p>
+                            <p class="excerpt">Experience the Big Apple on a budget with our insider tips.</p>
+                            <a href="new-york.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1483729558449-99ef09a8c325');">
+                            <span class="badge">Foodie Paradise</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="mexico-city.html">Mexico City, Mexico</a></h3>
+                            <p class="meta">Best time: Mar-May • Budget: $</p>
+                            <p class="excerpt">Vibrant culture, incredible food, and rich history at budget prices.</p>
+                            <a href="mexico-city.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1619546952812-520e98064a52');">
+                            <span class="badge">Nature Lovers</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="lima.html">Lima, Peru</a></h3>
+                            <p class="meta">Best time: Dec-Apr • Budget: $</p>
+                            <p class="excerpt">Gateway to Machu Picchu with incredible seafood and colonial architecture.</p>
+                            <a href="lima.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+
+                    <!-- Africa/Middle East -->
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1516026672322-bc52d61a60d0');">
+                            <span class="badge">Cultural Gem</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="marrakech.html">Marrakech, Morocco</a></h3>
+                            <p class="meta">Best time: Mar-May • Budget: $</p>
+                            <p class="excerpt">Lose yourself in the maze-like souks and stunning riads of this exotic city.</p>
+                            <a href="marrakech.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4');">
+                            <span class="badge">Beach Escape</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="capetown.html">Cape Town, South Africa</a></h3>
+                            <p class="meta">Best time: Nov-Feb • Budget: $$</p>
+                            <p class="excerpt">Stunning landscapes, world-class wines, and affordable adventure activities.</p>
+                            <a href="capetown.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="destination-card">
+                        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1581056771107-24ca5f033842');">
+                            <span class="badge">Architecture</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="dubai.html">Dubai, UAE</a></h3>
+                            <p class="meta">Best time: Nov-Mar • Budget: $$$</p>
+                            <p class="excerpt">Futuristic skyline meets traditional souks in this Middle Eastern metropolis.</p>
+                            <a href="dubai.html" class="read-more">Read Guide →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Why Use WanderWise Guides?</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon">🗺️</div>
+                        <h3>Curated Itineraries</h3>
+                        <p>Perfect one-day plans to maximize your time in each destination.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">💰</div>
+                        <h3>Budget Tips</h3>
+                        <p>Local secrets to save money without missing the best experiences.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🍜</div>
+                        <h3>Food Guides</h3>
+                        <p>Where to eat authentic local cuisine that won't break the bank.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📱</div>
+                        <h3>Mobile-Friendly</h3>
+                        <p>Access guides on the go when you need them most.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="region-guides">
+            <div class="container">
+                <h2>Explore By Region</h2>
+                <div class="region-grid">
+                    <div class="region-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1464037866556-6812c9d1c72e');">
+                        <h3>Asia</h3>
+                        <p>15+ destinations</p>
+                        <a href="asia.html" class="btn secondary">View All</a>
+                    </div>
+                    <div class="region-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1493707553966-283afac8c358');">
+                        <h3>Europe</h3>
+                        <p>20+ destinations</p>
+                        <a href="europe.html" class="btn secondary">View All</a>
+                    </div>
+                    <div class="region-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1483729558449-99ef09a8c325');">
+                        <h3>Americas</h3>
+                        <p>12+ destinations</p>
+                        <a href="americas.html" class="btn secondary">View All</a>
+                    </div>
+                    <div class="region-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1516026672322-bc52d61a60d0');">
+                        <h3>Africa & Middle East</h3>
+                        <p>8+ destinations</p>
+                        <a href="africa-middle-east.html" class="btn secondary">View All</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Get Weekly Travel Tips</h2>
+                    <p>Subscribe to receive new destination guides and budget travel hacks straight to your inbox.</p>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn primary">Subscribe</button>
+                    </form>
+                    <p class="small">We respect your privacy. Unsubscribe at any time.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>WanderWise</h3>
+                    <p>Helping budget travelers explore the world smarter since 2023.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Guides</h4>
+                    <ul>
+                        <li><a href="bangkok.html">Bangkok</a></li>
+                        <li><a href="paris.html">Paris</a></li>
+                        <li><a href="bali.html">Bali</a></li>
+                        <li><a href="tokyo.html">Tokyo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="packing-list.html">Packing List</a></li>
+                        <li><a href="budget-tips.html">Budget Tips</a></li>
+                        <li><a href="solo-travel.html">Solo Travel</a></li>
+                        <li><a href="digital-nomad.html">Digital Nomad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderWise. All rights reserved.</p>
+                <p>Made with ♥ for travelers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations | WanderWise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="fabicon.ico">
+
+</head>
+<body>
+    <header class="main-header">
+        <!-- Same header as index.html -->
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">Wander<span>Wise</span></h1>
+                <p class="tagline">Smart Travel, Not Hard Travel</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="blog.html">Travel Tips</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search destinations..." id="search-input">
+                <button id="search-btn">Go</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1464037866556-6812c9d1c72e');">
+        <div class="container">
+            <h1>Explore Our Destinations</h1>
+            <p>Discover handcrafted travel guides for cities around the world</p>
+        </div>
+    </section>
+
+    <section class="destinations-filter">
+        <div class="container">
+            <div class="filter-options">
+                <div class="filter-group">
+                    <label for="region"><i class="fas fa-globe-americas"></i> Region</label>
+                    <select id="region">
+                        <option value="all">All Regions</option>
+                        <option value="asia">Asia</option>
+                        <option value="europe">Europe</option>
+                        <option value="americas">Americas</option>
+                        <option value="africa">Africa</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="budget"><i class="fas fa-wallet"></i> Budget</label>
+                    <select id="budget">
+                        <option value="all">Any Budget</option>
+                        <option value="low">$ Budget</option>
+                        <option value="mid">$$ Mid-range</option>
+                        <option value="high">$$$ Luxury</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="interests"><i class="fas fa-heart"></i> Interests</label>
+                    <select id="interests">
+                        <option value="all">All Interests</option>
+                        <option value="beach">Beaches</option>
+                        <option value="city">Cities</option>
+                        <option value="hiking">Hiking</option>
+                        <option value="food">Food</option>
+                    </select>
+                </div>
+                <button class="btn primary" id="apply-filters">Apply Filters</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="destinations-grid-section">
+        <div class="container">
+            <h2 class="section-title">Featured Destinations</h2>
+            <div class="destinations-grid" id="destinations-container">
+                <!-- Destinations will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="region-guides">
+        <div class="container">
+            <h2 class="section-title">Explore By Region</h2>
+            <div class="region-grid">
+                <a href="asia.html" class="region-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1464037866556-6812c9d1c72e');">
+                    <h3>Asia</h3>
+                    <p>15+ destinations</p>
+                </a>
+                <a href="europe.html" class="region-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1493707553966-283afac8c358');">
+                    <h3>Europe</h3>
+                    <p>20+ destinations</p>
+                </a>
+                <a href="americas.html" class="region-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1483729558449-99ef09a8c325');">
+                    <h3>Americas</h3>
+                    <p>12+ destinations</p>
+                </a>
+                <a href="africa.html" class="region-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1516026672322-bc52d61a60d0');">
+                    <h3>Africa</h3>
+                    <p>8+ destinations</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <!-- Same footer as index.html -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>WanderWise</h3>
+                    <p>Helping budget travelers explore the world smarter since 2023.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Guides</h4>
+                    <ul>
+                        <li><a href="bangkok.html">Bangkok</a></li>
+                        <li><a href="paris.html">Paris</a></li>
+                        <li><a href="bali.html">Bali</a></li>
+                        <li><a href="tokyo.html">Tokyo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="packing-list.html">Packing List</a></li>
+                        <li><a href="budget-tips.html">Budget Tips</a></li>
+                        <li><a href="solo-travel.html">Solo Travel</a></li>
+                        <li><a href="digital-nomad.html">Digital Nomad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderWise. All rights reserved.</p>
+                <p>Made with ♥ for travelers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Destination data - in a real app this would come from an API
+        const destinations = [
+            {
+                id: 'bangkok',
+                title: 'Bangkok, Thailand',
+                image: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed',
+                region: 'asia',
+                budget: 'low',
+                interests: ['city', 'food'],
+                meta: 'Best time: Nov-Feb • Budget: $'
+            },
+            {
+                id: 'paris',
+                title: 'Paris, France',
+                image: 'https://images.unsplash.com/photo-1431274172761-fca41d930114',
+                region: 'europe',
+                budget: 'high',
+                interests: ['city', 'food'],
+                meta: 'Best time: Apr-Jun • Budget: $$$'
+            },
+            // Add all other destinations here
+        ];
+
+        function renderDestinations(filteredDestinations) {
+            const container = document.getElementById('destinations-container');
+            container.innerHTML = '';
+            
+            filteredDestinations.forEach(dest => {
+                const card = document.createElement('article');
+                card.className = 'destination-card';
+                card.innerHTML = `
+                    <div class="card-image" style="background-image: url('${dest.image}')"></div>
+                    <div class="card-content">
+                        <h3><a href="${dest.id}.html">${dest.title}</a></h3>
+                        <p class="meta">${dest.meta}</p>
+                        <a href="${dest.id}.html" class="read-more">Explore Guide <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Initial render
+        renderDestinations(destinations);
+
+        // Filter functionality
+        document.getElementById('apply-filters').addEventListener('click', function() {
+            const region = document.getElementById('region').value;
+            const budget = document.getElementById('budget').value;
+            const interest = document.getElementById('interests').value;
+            
+            const filtered = destinations.filter(dest => {
+                return (region === 'all' || dest.region === region) &&
+                       (budget === 'all' || dest.budget === budget) &&
+                       (interest === 'all' || dest.interests.includes(interest));
+            });
+            
+            renderDestinations(filtered);
+        });
+    </script>
+</body>
+</html>

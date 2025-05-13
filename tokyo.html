@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyo Travel Guide | WanderWise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="fabicon.ico">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+                <h1 class="logo">Wander<span>Wise</span></h1>
+                <p class="tagline">Smart Travel, Not Hard Travel</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="blog.html">Travel Tips</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search destinations..." id="search-input">
+                <button id="search-btn">Go</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="destination-header" style="background-image: url('https://images.unsplash.com/photo-1492571350019-22de08371fd3');">
+        <div class="container">
+            <h1>Tokyo, Japan</h1>
+            <div class="destination-meta">
+                <div class="meta-item"><i class="fas fa-city"></i> Capital City</div>
+                <div class="meta-item"><i class="fas fa-thermometer-half"></i> <span id="weather-widget">18°C, Clear</span></div>
+                <div class="meta-item"><i class="fas fa-wallet"></i> Budget: $$</div>
+                <div class="meta-item"><i class="fas fa-clock"></i> Timezone: GMT+9</div>
+            </div>
+            <p>Where cutting-edge technology meets ancient traditions in the world's largest metropolis.</p>
+        </div>
+    </section>
+
+    <main class="destination-content">
+        <div class="container">
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-map-marked-alt"></i> Top 5 Things to Do</h2>
+                <div class="tip-card">
+                    <h3>1. Shibuya Crossing</h3>
+                    <p>The world's busiest pedestrian crossing. Best view from Starbucks in Tsutaya building.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> Free</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Evening when neon lights are on</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>2. Senso-ji Temple</h3>
+                    <p>Tokyo's oldest temple in Asakusa. Walk through Nakamise shopping street for souvenirs.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> Free (donations welcome)</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Early morning to avoid crowds</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>3. Shinjuku Gyoen National Garden</h3>
+                    <p>Beautiful park blending Japanese, English and French garden styles. Perfect for cherry blossom viewing.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> 500 JPY (~$3.50)</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Spring for cherry blossoms or autumn for fall colors</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>4. TeamLab Planets</h3>
+                    <p>Immersive digital art museum where you walk barefoot through stunning interactive installations.</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> 3,800 JPY (~$26)</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Weekday mornings (book tickets in advance)</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>5. Tsukiji Outer Market</h3>
+                    <p>Food paradise with fresh sushi, seafood bowls and Japanese snacks (inner wholesale market moved).</p>
+                    <p><strong><i class="fas fa-money-bill-wave"></i> Cost:</strong> Free to enter (food purchases extra)</p>
+                    <p><strong><i class="fas fa-clock"></i> Best time:</strong> Early morning for freshest seafood</p>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-utensils"></i> Must-Try Tokyo Food</h2>
+                <div class="food-card">
+                    <h3>Sushi</h3>
+                    <p>Fresh nigiri at Tsukiji outer market or conveyor belt sushi for budget options.</p>
+                    <p><strong>Where to try:</strong> Sushi Dai (Tsukiji) or Genki Sushi (Shibuya)</p>
+                    <p><strong>Price:</strong> 1,000-3,000 JPY (~$7-20) per person</p>
+                </div>
+                
+                <div class="food-card">
+                    <h3>Ramen</h3>
+                    <p>Rich pork broth or soy-based noodles - each shop has its specialty.</p>
+                    <p><strong>Where to try:</strong> Ichiran (chain) or Afuri (yuzu-flavored broth)</p>
+                    <p><strong>Price:</strong> 800-1,500 JPY (~$5.50-10) per bowl</p>
+                </div>
+                
+                <div class="food-card">
+                    <h3>Monjayaki</h3>
+                    <p>Tokyo's answer to okonomiyaki - runny savory pancake cooked on hotplate.</p>
+                    <p><strong>Where to try:</strong> Monja Street in Tsukishima</p>
+                    <p><strong>Price:</strong> 1,000-2,000 JPY (~$7-14) per portion</p>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-coins"></i> Budget Tips</h2>
+                <div class="tip-card">
+                    <h3>Get a Suica/Pasmo Card</h3>
+                    <p>Reloadable IC card for trains/buses (cheaper than single tickets) and can be used at convenience stores.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Eat at Department Store Basements</h3>
+                    <p>Depachika food halls have discounted prepared foods in the evening (after 7pm).</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Free Observation Decks</h3>
+                    <p>Skip Tokyo Skytree - free views from Tokyo Metropolitan Government Building or Shibuya Sky.</p>
+                </div>
+                
+                <div class="tip-card">
+                    <h3>Convenience Store Meals</h3>
+                    <p>7-11, FamilyMart and Lawson offer surprisingly good and cheap meals (try onigiri!).</p>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-calendar-alt"></i> Sample 5-Day Itinerary</h2>
+                <div class="itinerary-day">
+                    <h3>Day 1: Central Tokyo</h3>
+                    <ul>
+                        <li>Morning: Meiji Shrine & Harajuku (Takeshita Street)</li>
+                        <li>Afternoon: Shibuya Crossing & Hachiko Statue</li>
+                        <li>Evening: Shinjuku Golden Gai or Omoide Yokocho</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day">
+                    <h3>Day 2: Traditional Tokyo</h3>
+                    <ul>
+                        <li>Morning: Senso-ji Temple & Nakamise Street</li>
+                        <li>Afternoon: Ueno Park & Museums</li>
+                        <li>Evening: Sumida River cruise or Tokyo Skytree</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day">
+                    <h3>Day 3: Modern Tokyo</h3>
+                    <ul>
+                        <li>Morning: Tsukiji Outer Market</li>
+                        <li>Afternoon: TeamLab Planets & Odaiba</li>
+                        <li>Evening: Roppongi Hills night views</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day">
+                    <h3>Day 4: Day Trip Options</h3>
+                    <ul>
+                        <li>Option 1: Hakone (onsens & Mt. Fuji views)</li>
+                        <li>Option 2: Nikko (temples & nature)</li>
+                        <li>Option 3: Kamakura (Great Buddha & beaches)</li>
+                    </ul>
+                </div>
+                
+                <div class="itinerary-day">
+                    <h3>Day 5: Neighborhood Exploration</h3>
+                    <ul>
+                        <li>Morning: Shimokitazawa (vintage shopping)</li>
+                        <li>Afternoon: Akihabara (electronics & anime)</li>
+                        <li>Evening: Ginza (high-end shopping & dining)</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-info-circle"></i> Essential Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3><i class="fas fa-passport"></i> Visa Requirements</h3>
+                        <p>Many nationalities get 90 days visa-free. Check MOFA website for your country's requirements.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-language"></i> Language</h3>
+                        <p>Japanese. English signage in tourist areas but not widely spoken. Learn basic phrases.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-money-bill-wave"></i> Currency</h3>
+                        <p>Japanese Yen (¥). Cash still preferred at many places. 7-11 ATMs accept foreign cards.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-plug"></i> Electricity</h3>
+                        <p>100V, 50/60Hz. Type A/B plugs (two flat pins). US devices usually work without adapter.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-train"></i> Transportation</h3>
+                        <p>Excellent subway system. Get Suica/Pasmo IC card. Consider JR Pass if traveling beyond Tokyo.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h3><i class="fas fa-heart"></i> Health & Safety</h3>
+                        <p>Extremely safe. Tap water drinkable. No tipping. Emergency number: 110 (police) or 119 (ambulance).</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-map"></i> Neighborhoods to Stay</h2>
+                <div class="area-card">
+                    <h3>Shinjuku</h3>
+                    <p><strong>Best for:</strong> First-time visitors, nightlife</p>
+                    <p><strong>Budget:</strong> $$</p>
+                    <p>Major transport hub with hotels ranging from capsule to luxury.</p>
+                </div>
+                
+                <div class="area-card">
+                    <h3>Shibuya</h3>
+                    <p><strong>Best for:</strong> Younger travelers, shopping</p>
+                    <p><strong>Budget:</strong> $$</p>
+                    <p>Vibrant area near famous crossing with mid-range hotels.</p>
+                </div>
+                
+                <div class="area-card">
+                    <h3>Asakusa</h3>
+                    <p><strong>Best for:</strong> Traditional atmosphere</p>
+                    <p><strong>Budget:</strong> $</p>
+                    <p>More affordable options near Senso-ji temple.</p>
+                </div>
+                
+                <div class="area-card">
+                    <h3>Ginza</h3>
+                    <p><strong>Best for:</strong> Luxury stays</p>
+                    <p><strong>Budget:</strong> $$$$</p>
+                    <p>High-end shopping district with premium hotels.</p>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2 class="section-title"><i class="fas fa-question-circle"></i> FAQs</h2>
+                <div class="faq-card">
+                    <h3>When is the best time to visit Tokyo?</h3>
+                    <p>March-May for cherry blossoms or October-November for pleasant weather. Avoid Golden Week (late April-early May).</p>
+                </div>
+                
+                <div class="faq-card">
+                    <h3>Is Tokyo expensive?</h3>
+                    <p>Accommodation can be pricey but food/transport are reasonable. Budget travelers can manage on ¥8,000-10,000/day.</p>
+                </div>
+                
+                <div class="faq-card">
+                    <h3>Do I need to speak Japanese?</h3>
+                    <p>Not essential but helpful. Many restaurants have English menus or picture menus. Google Translate works well.</p>
+                </div>
+                
+                <div class="faq-card">
+                    <h3>What's the etiquette for temples/shrines?</h3>
+                    <p>Bow slightly before entering, wash hands at purification fountain, don't photograph during prayers, and toss coins in offering box.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>WanderWise</h3>
+                    <p>Helping budget travelers explore the world smarter since 2023.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Popular Guides</h4>
+                    <ul>
+                        <li><a href="bangkok.html">Bangkok</a></li>
+                        <li><a href="paris.html">Paris</a></li>
+                        <li><a href="bali.html">Bali</a></li>
+                        <li><a href="tokyo.html">Tokyo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="packing-list.html">Packing List</a></li>
+                        <li><a href="budget-tips.html">Budget Tips</a></li>
+                        <li><a href="solo-travel.html">Solo Travel</a></li>
+                        <li><a href="digital-nomad.html">Digital Nomad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WanderWise. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> for travelers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
